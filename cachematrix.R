@@ -43,6 +43,8 @@ cacheSolve <- function(specialMatrix, ...) {
         # call the cache
         cache
 }
+# Test Cases
+
 n1 <- matrix(c(6,2,8,4), nrow = 2, ncol = 2)
 myMatrix <- makeCacheMatrix(n1)
 cacheSolve(myMatrix)
@@ -50,3 +52,5 @@ cacheSolve(myMatrix)
 m1 <- matrix(c(1/2, -1/4, -1, 3/4), nrow = 2, ncol = 2)
 myMatrix2 <- makeCacheMatrix(m1)
 cacheSolve(myMatrix2)
+
+# Tests from post below- proven that function is working https://www.coursera.org/learn/r-programming/discussions/weeks/3/threads/ePlO1eMdEeahzg7_4P4Vvg
